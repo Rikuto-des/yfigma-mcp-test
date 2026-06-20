@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "yasuda-figma-mcp": {
+      "command": "npx",
+      "args": ["-y", "github:Rikuto-des/yasuda-figma-mcp", "mcp"],
+      "env": {
+        "BRIDGE_EMBED": "1",
+        "BRIDGE_PORT": "3055",
+        "BRIDGE_URL": "ws://127.0.0.1:3055",
+        "BRIDGE_CHANNEL": "default"
+      }
+    }
+  }
+}
